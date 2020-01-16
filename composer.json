@@ -1,5 +1,5 @@
 {
-    "name": "MrPAttema/laravel-withdefault",
+    "name": "mrpattema/laravel-withdefault",
     "description": "Make the use of withDefault possible in Laravel 5.3.",
     "keywords": ["laravel", "eloquent", "laravel5"],
     "authors": [
