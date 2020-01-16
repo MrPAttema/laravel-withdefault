@@ -3,8 +3,9 @@
 namespace MrPAttema\withDefault;
 
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use MrPAttema\withDefault\SupportsDefaultModels;
 
-class BelongsTo extends BelongsTo
+class WithDefault extends BelongsTo
 {
     /**
      * Initialize the relation on a set of models.
