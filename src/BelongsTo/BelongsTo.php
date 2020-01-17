@@ -12,7 +12,7 @@ use MrPAttema\withDefault\SupportsDefaultModels;
 /**
  * @mixin \Illuminate\Database\Eloquent\Builder
  */
-class BelongsToWithDefault extends Relation
+class BelongsTo extends Relation
 {
     use SupportsDefaultModels;
 

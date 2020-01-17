@@ -17,6 +17,6 @@ class BelongsToWithDefaultServiceProvider extends ServiceProvider
     {
         $this->package('mrpattema/laravel-withdefault');
 
-        AliasLoader::getInstance()->alias('BelongsToWithDefault', 'MrPAttema\BelongsTo\BelongsToWithDefault');
+        AliasLoader::getInstance()->alias('Model', 'MrPAttema\BelongsTo\Model');
     }
 }
